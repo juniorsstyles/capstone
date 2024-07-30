@@ -10,3 +10,11 @@ urlpatterns = [
     path('register/', views.register, name='register'),
     path('profile/', views.profile, name='profile'),
 ]
+
+"""
+URL configuration for the recipes app.
+
+This module maps URL paths to their corresponding view functions in the recipes app.
+
+Each path is associated with a view function and a name which can be used for URL reversing.
+"""
